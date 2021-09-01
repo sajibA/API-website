@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API WEBSITE</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="container mt-2">
+        <div class="input-group mb-3">
+            <input id="search-input" type="text" class="form-control" placeholder="Search Country By name"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-dark bg-dark text-white" type="button" id="search-btn">Search</button>
+        </div>
+
+    </header>
+    <section class="container my-2">
+
+    </section>
+    <section class="container d-flex">
+        <div class="row" id="country-details">
+            <!-- <div class="col-md-12">
+                <h1>Bangladesh</h1>
+                <p>Details</p>
+                <p>Details</p>
+            </div> -->
+        </div>
+    </section>
+    <section class="container mt-2">
+        <div id="error">
+
+        </div>
+        <div id="country-container" class="row">
+
+            <div id="spinner" class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
